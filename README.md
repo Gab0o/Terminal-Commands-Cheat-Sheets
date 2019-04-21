@@ -5,6 +5,10 @@
 - [Commandes](https://github.com/Gab0o/Unix-Terminal/blob/master/README.md#commandes)
 - [Gestion des fichiers et des dossiers](https://github.com/Gab0o/Unix-Terminal/blob/master/README.md#gestion-des-fichiers-et-dossiers)
 ### [Homebrew](https://github.com/Gab0o/Unix-Terminal#homebrew--)
+- [Installation de Homebrew](https://github.com/Gab0o/Unix-Terminal#installation-de-homebrew)
+- [Installation d'un package (eg. Tree)](https://github.com/Gab0o/Unix-Terminal#installation-dun-package-eg-tree)
+- [Liste des packages installés](https://github.com/Gab0o/Unix-Terminal#packages-install%C3%A9s)
+- [Désinstaller un package](https://github.com/Gab0o/Unix-Terminal#d%C3%A9sinstaller-un-package)
 
 ## Unix-Terminal
 
