@@ -1,5 +1,4 @@
-## SOMMAIRE
-<details><summary>deploy</summary>
+<details><summary><h2>SOMMAIRE</h2></summary>
 </p>
 
 ### [Unix-Terminal](https://github.com/Gab0o/Unix-Terminal#unix-terminal)  
