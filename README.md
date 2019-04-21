@@ -16,7 +16,7 @@ Raccourci    | Description
 
 ### COMMANDES
 |Commande          | Description 
-|:----------------:|:-----------------------------------------------
+|:-----------------|:-----------------------------------------------
 | cd               | Répertoire source
 | cd `[folder]`    | Changer de répertoire
 | cd ../..         | Remonter deux répertoires parents
