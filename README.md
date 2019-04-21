@@ -1,6 +1,9 @@
-<details><summary><h2>SOMMAIRE</h2></summary>
-</p>
-
+<details>
+  <summary>
+    <h2>SOMMAIRE</h2>
+  </summary>
+<p>
+  
 ### [Unix-Terminal](https://github.com/Gab0o/Unix-Terminal#unix-terminal)  
 - [Raccourcis clavier](https://github.com/Gab0o/Unix-Terminal/blob/master/README.md#raccourcis)
 - [Commandes](https://github.com/Gab0o/Unix-Terminal/blob/master/README.md#commandes)
