@@ -13,9 +13,9 @@
 - [Installation d'un package (eg. Tree)](https://github.com/Gab0o/Unix-Terminal#installation-dun-package-eg-tree)
 - [Liste des packages installés](https://github.com/Gab0o/Unix-Terminal#packages-install%C3%A9s)
 - [Désinstaller un package](https://github.com/Gab0o/Unix-Terminal#d%C3%A9sinstaller-un-package)
-### [Python 3]()
-- [Installation devia Anaconda3]()
-- [Installation de Python 3 sans passer par Anaconda]()
+### [Python 3](https://github.com/Gab0o/Unix-Terminal/blob/master/README.md#python-3-1)
+- [Installation via Anaconda3](https://github.com/Gab0o/Unix-Terminal/blob/master/README.md#installation-via-anaconda3)
+- [Installation de Python 3 sans passer par Anaconda](https://github.com/Gab0o/Unix-Terminal/blob/master/README.md#installation-de-python-3-sans-passer-par-anaconda)
 
 </p>
 </details>
@@ -71,13 +71,13 @@
 
 ## Homebrew <a href ="https://brew.sh/index_fr"> <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Homebrew_logo.png" width="50" height="40">  
 
-#### Installation de Homebrew
+### Installation de Homebrew
 Pour installer Homebrew, taper la commande suivante dans le terminal  
 ```
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-#### Installation d'un package (eg. Tree)
+### Installation d'un package (eg. Tree)
 Tree est un utilitaire permettant d'afficher contenu du dossier actuel sous forme d'arborescence.
 <img src="https://i.stack.imgur.com/NejY0.png" width="350" height="300">  
 ```
@@ -88,24 +88,24 @@ Il est possible de limiter le nombre de sous-dossiers affichés en utilisant la 
 $ tree -L 1
 ```
 
-#### Packages installés
+### Packages installés
 Pour afficher la liste des packages Homebrew installés, taper la commande suivante.
 ```
 $ brew deps --tree --installed
 ```
 
-#### Désinstaller un package
+### Désinstaller un package
 Pour désinstaller un package Homebrew, taper la commande suivante.
 ```
 $ brew remove [package name]
 ```
 
 ## Python 3
-#### Installation via Anaconda3  
+### Installation via Anaconda3  
 <a href ="https://docs.anaconda.com/anaconda/install/mac-os/"> <img src="https://docs.anaconda.com/_static/images/logos/logo-docs.svg" width="400">  
 </a>
 Une fois l'installation effectuée, il faut modifier le fichier bash pour indiquer l'emplacement de l'installation d'Anaconda. Cela permet d'utiliser les gestionnaires de package pip et conda.  
-Pour modifier le fichier bash, lancer la commande* `$ sudo nano ~/.bash_profile`.   
+Pour modifier le fichier bash, lancer la commande `$ sudo nano ~/.bash_profile`.   
 Y ajouter la ligne suivante:
 ```
 export PATH=~/anaconda3/bin:$PATH
@@ -115,7 +115,7 @@ Rafraichir le fichier .bash avec la commande suivante:
 $ source ~/.bash_profile
 ```
 
-#### Installation de Python 3 sans passer par Anaconda
+### Installation de Python 3 sans passer par Anaconda
 ```
 $ brew install python3
 $ brew install python3-pip
