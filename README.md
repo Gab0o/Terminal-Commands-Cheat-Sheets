@@ -1,7 +1,7 @@
 # SOMMAIRE
 
 - [Unix-Terminal](https://github.com/Gab0o/Unix-Terminal#unix-terminal)  
-- [Homebrew](test)
+- [Homebrew](https://github.com/Gab0o/Unix-Terminal#homebrew)
 
 ## Unix-Terminal
 
