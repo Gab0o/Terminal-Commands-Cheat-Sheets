@@ -145,6 +145,9 @@ Il faut ensuite se rendre sur la page `localhost:6006/extensions` pour voir la l
 ### Hinterland  
 Hinterland permet d'activer l'autocompletion pour chaque touche tapée dans le notebook, plutot que de l'appeler avec la touche `Tab`.  
 
+<img src="https://www.endtoend.ai/assets/blog/jupyter-notebook-extensions-to-enhance-your-efficiency/hinterland.jpg>
+
 ### Variable Inspector  
 Variable Inspector permet d'afficher les variables déclarées dans une fenêtre flottante, avec leur type, taille et contenu.  
+
 <img src="https://www.endtoend.ai/assets/blog/jupyter-notebook-extensions-to-enhance-your-efficiency/variable_inspector.gif">
