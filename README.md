@@ -1,6 +1,6 @@
 <details>
   <summary>
-    <h2>SOMMAIRE</h2>
+    <h3>SOMMAIRE</h3>
   </summary>
 <p>
   
