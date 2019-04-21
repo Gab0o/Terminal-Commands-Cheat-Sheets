@@ -80,6 +80,7 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 Tree est un utilitaire permettant d'afficher contenu du dossier actuel sous forme d'arborescence.  
 
 <img src="https://i.stack.imgur.com/NejY0.png" width="350" height="300">  
+
 ```
 $ brew install tree
 ```
