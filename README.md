@@ -51,10 +51,22 @@
 | rm -R `[dir]`                | Supprimer le répertoire et son contenu
 
 ## Homebrew <a href ="https://brew.sh/index_fr"> <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Homebrew_logo.png" width="50" height="40">  
+
 #### Installation de Homebrew
 Pour installer Homebrew, taper la commande suivante dans le terminal  
 ```
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+#### Installation d'un package (eg. Tree)
+Tree est un utilitaire permettant d'afficher contenu du dossier actuel sous forme d'arborescence.
+<img src="https://i.stack.imgur.com/NejY0.png" width="350" height="300">  
+```
+$ brew install tree
+```
+Il est possible de limiter le nombre de sous-dossiers affichés en utilisant la commande `-L`
+```
+$ tree -L 1
 ```
 
 #### Packages installés
@@ -69,20 +81,8 @@ Pour désinstaller un package Homebrew, taper la commande suivante.
 $ brew remove [package name]
 ```
 
-#### Installation de Python 3 sans passer par Anaconda
+### Installation de Python 3 sans passer par Anaconda
 ```
 $ brew install python3
 $ brew install python3-pip
 ```
-
-#### Installation de Tree
-Tree est un utilitaire permettant d'afficher l'arborescence du contenu du dossier actuel dans le Terminal
-<img src="https://i.stack.imgur.com/NejY0.png" width="350" height="300">  
-```
-$ brew install tree
-```
-Il est possible de limiter le nombre de sous-dossiers affichés en utilisant la commande `-L`
-```
-$ tree -L 1
-```
-n'affichera que l'arborescence du contenu du répertoire actuel
