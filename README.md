@@ -1,7 +1,10 @@
 # SOMMAIRE
 
-- [Unix-Terminal](https://github.com/Gab0o/Unix-Terminal#unix-terminal)  
-- [Homebrew](https://github.com/Gab0o/Unix-Terminal#homebrew--)
+### [Unix-Terminal](https://github.com/Gab0o/Unix-Terminal#unix-terminal)  
+- [Raccourcis clavier](https://github.com/Gab0o/Unix-Terminal/blob/master/README.md#raccourcis)
+- [Commandes](https://github.com/Gab0o/Unix-Terminal/blob/master/README.md#commandes)
+- [Gestion des fichiers et des dossiers](https://github.com/Gab0o/Unix-Terminal/blob/master/README.md#gestion-des-fichiers-et-dossiers)
+### [Homebrew](https://github.com/Gab0o/Unix-Terminal#homebrew--)
 
 ## Unix-Terminal
 
