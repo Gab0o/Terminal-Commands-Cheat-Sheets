@@ -1,5 +1,3 @@
-# Unix-Terminal
-
 ### RACCOURCIS
 Raccourci    | Description 
 :-----------:|:-----------------------------------------------
