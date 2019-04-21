@@ -1,4 +1,4 @@
-<h2>SOMMAIRE</h2>
+<h1>SOMMAIRE</h1>
 <details>
   <summary>Afficher / Masquer le sommaire</summary>
 <p>
@@ -21,7 +21,7 @@
 
 ***
 
-## Unix-Terminal
+# Unix-Terminal
 
 ### RACCOURCIS
 |Raccourci    | Description 
@@ -68,7 +68,7 @@
 | rmdir `[dir]`                | Supprimer le répertoire ( *Ne fonctionne que dans un répertoire vide* )
 | rm -R `[dir]`                | Supprimer le répertoire et son contenu
 
-## Homebrew <a href ="https://brew.sh/index_fr"> <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Homebrew_logo.png" width="50" height="40">  
+# Homebrew <a href ="https://brew.sh/index_fr"> <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Homebrew_logo.png" width="50" height="40">  
 
 ### Installation de Homebrew
 Pour installer Homebrew, taper la commande suivante dans le terminal  
@@ -101,7 +101,7 @@ Pour désinstaller un package Homebrew, taper la commande suivante.
 $ brew remove [package name]
 ```
 
-## Python 3
+# Python 3
 ### Installation via Anaconda3  
 <a href ="https://docs.anaconda.com/anaconda/install/mac-os/"> <img src="https://docs.anaconda.com/_static/images/logos/logo-docs.svg" width="400">  
 </a>
