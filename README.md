@@ -99,12 +99,16 @@ $ brew remove [package name]
 
 ### Installation de Anaconda3  
 <a href ="https://docs.anaconda.com/anaconda/install/mac-os/"> <img src="https://docs.anaconda.com/_static/images/logos/logo-docs.svg" width="400">  
-  
+</a>
 Une fois l'installation effectuée, il faut modifier le fichier bash pour indiquer l'emplacement de l'installation d'Anaconda. Cela permet d'utiliser les gestionnaires de package pip et conda.  
-( *pour modifier le fichier bash, lancer la commande* `$ nano ~/.bash_profile` ).
+Pour modifier le fichier bash, lancer la commande* `$ sudo nano ~/.bash_profile`.   
 Y ajouter la ligne suivante:
 ```
 export PATH=~/anaconda3/bin:$PATH
+```
+Rafraichir le fichier .bash avec la commande suivante:
+```
+$ source ~/.bash_profile
 ```
 
 ### Installation de Python 3 sans passer par Anaconda
