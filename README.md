@@ -121,3 +121,30 @@ $ source ~/.bash_profile
 $ brew install python3
 $ brew install python3-pip
 ```
+
+# Extensions pour Jupyter Notebook  
+### Installation  
+Avant tout, il faut mettre à jour le notebook Jupyter.  
+La commande suivante va installer, mettre à jour et vérifier que Jupyter Notebook est installé sur la machine.
+```
+$ conda install jupyter notebook nb_conda
+```  
+Il faut ensuite installer 2 packages depuis le channel conda-forge: `jupyter_contrib_nbextensions` and `jupyter_nbextensions_configurator`.  
+Le premier package installe les extensions, et le second (configurator) permet de gérer ces extensions.
+```
+$ conda install -c conda-forge jupyter_contrib_nbextensions jupyter_nbextensions_configurator
+```  
+Pour gérer les extensions, il faut d'abore lancer un Jupyter Notebook.
+```
+$ jupyter notebook
+```
+Il faut ensuite se rendre sur la page `localhost:6006/extensions` pour voir la liste des extensions et modifier leurs paramètres.  
+
+<img src="https://www.endtoend.ai/assets/blog/jupyter-notebook-extensions-to-enhance-your-efficiency/configurator.png">
+
+### Hinterland  
+Hinterland permet d'activer l'autocompletion pour chaque touche tapée dans le notebook, plutot que de l'appeler avec la touche `Tab`.  
+
+### Variable Inspector  
+Variable Inspector permet d'afficher les variables déclarées dans une fenêtre flottante, avec leur type, taille et contenu.  
+<img src="https://www.endtoend.ai/assets/blog/jupyter-notebook-extensions-to-enhance-your-efficiency/variable_inspector.gif">
