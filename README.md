@@ -1,7 +1,6 @@
+<h2>SOMMAIRE</h2>
 <details>
-  <summary>
-    <h2>SOMMAIRE</h2>
-  </summary>
+  <summary>Afficher / Masquer le sommaire</summary>
 <p>
   
 ### [Unix-Terminal](https://github.com/Gab0o/Unix-Terminal#unix-terminal)  
