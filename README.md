@@ -56,11 +56,25 @@ Pour installer Homebrew, taper la commande suivante dans le terminal
 ```
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
+
+#### Packages installés
+Pour afficher la liste des packages Homebrew installés, taper la commande suivante.
+```
+$ brew deps --tree --installed
+```
+
+#### Désinstaller un package
+Pour désinstaller un package Homebrew, taper la commande suivante.
+```
+$ brew remove [package name]
+```
+
 #### Installation de Python 3 sans passer par Anaconda
 ```
 $ brew install python3
 $ brew install python3-pip
 ```
+
 #### Installation de Tree
 Tree est un utilitaire permettant d'afficher l'arborescence du contenu du dossier actuel dans le Terminal
 <img src="https://i.stack.imgur.com/NejY0.png" width="350" height="300">  
