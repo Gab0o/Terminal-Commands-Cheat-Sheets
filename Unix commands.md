@@ -23,7 +23,7 @@ Raccourci    | Description
 | sudo `[command]` | Executer une commande en superuser
 | open `[file]`    | Ouvrir un fichiers du répertoire actuel
 | open .           | Ouvrir le répertoire actuel
-| top              | Afficher les processus actifs. *Press q to quit* 
+| top              | Afficher les processus actifs. ( *Press q to quit* )
 | nano `[file]`    | Ouvrir le fichier dans l'éditeur du terminal
 | clear            | Effacer le terminal
 
