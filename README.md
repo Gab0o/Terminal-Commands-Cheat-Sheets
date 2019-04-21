@@ -1,4 +1,6 @@
-# SOMMAIRE
+## SOMMAIRE
+<details><summary>deploy</summary>
+</p>
 
 ### [Unix-Terminal](https://github.com/Gab0o/Unix-Terminal#unix-terminal)  
 - [Raccourcis clavier](https://github.com/Gab0o/Unix-Terminal/blob/master/README.md#raccourcis)
@@ -9,6 +11,11 @@
 - [Installation d'un package (eg. Tree)](https://github.com/Gab0o/Unix-Terminal#installation-dun-package-eg-tree)
 - [Liste des packages installés](https://github.com/Gab0o/Unix-Terminal#packages-install%C3%A9s)
 - [Désinstaller un package](https://github.com/Gab0o/Unix-Terminal#d%C3%A9sinstaller-un-package)
+
+</p>
+</details>
+
+***
 
 ## Unix-Terminal
 
