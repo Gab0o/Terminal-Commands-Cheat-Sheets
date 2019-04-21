@@ -142,7 +142,7 @@ Pour gérer les extensions, il faut d'abore lancer un Jupyter Notebook.
 ```
 $ jupyter notebook
 ```
-Il faut ensuite se rendre sur la page `localhost:6006/extensions` pour voir la liste des extensions et modifier leurs paramètres.  
+Il faut ensuite se rendre sur la page `http://localhost:8888/tree#nbextensions_configurator` pour voir la liste des extensions et modifier leurs paramètres.  
 
 <img src="https://www.endtoend.ai/assets/blog/jupyter-notebook-extensions-to-enhance-your-efficiency/configurator.png">
 
