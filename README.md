@@ -54,7 +54,21 @@
 #### Installation de Homebrew
 Pour installer Homebrew, taper la commande suivante dans le terminal  
 ```
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-
-
+#### Installation de Python 3 sans passer par Anaconda
+```
+$ brew install python3
+$ brew install python3-pip
+```
+#### Installation de Tree
+Tree est un utilitaire permettant d'afficher l'arborescence du contenu du dossier actuel dans le Terminal
+<img src="https://i.stack.imgur.com/NejY0.png" width="350" height="300">  
+```
+$ brew install tree
+```
+Il est possible de limiter le nombre de sous-dossiers affichés en utilisant la commande `-L`
+```
+$ tree -L 1
+```
+n'affichera que l'arborescence du contenu du répertoire actuel
