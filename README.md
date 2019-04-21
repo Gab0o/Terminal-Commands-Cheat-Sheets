@@ -15,6 +15,10 @@
 ### [Python 3](https://github.com/Gab0o/Unix-Terminal/blob/master/README.md#python-3-1)
 - [Installation via Anaconda3](https://github.com/Gab0o/Unix-Terminal/blob/master/README.md#installation-via-anaconda3)
 - [Installation de Python 3 sans passer par Anaconda](https://github.com/Gab0o/Unix-Terminal/blob/master/README.md#installation-de-python-3-sans-passer-par-anaconda)
+### [Extensions pour Jupyter Notebook](https://github.com/Gab0o/Unix-Terminal/blob/master/README.md#extensions-pour-jupyter-notebook)
+- [Installation](https://github.com/Gab0o/Unix-Terminal/blob/master/README.md#installation)
+- [Hinterland](https://github.com/Gab0o/Unix-Terminal/blob/master/README.md#hinterland)
+- [Variable Inspector](https://github.com/Gab0o/Unix-Terminal/blob/master/README.md#variable-inspector)
 
 </p>
 </details>
