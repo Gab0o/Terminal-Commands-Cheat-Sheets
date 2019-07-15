@@ -155,3 +155,44 @@ Hinterland permet d'activer l'autocompletion pour chaque touche tapée dans le n
 Variable Inspector permet d'afficher les variables déclarées dans une fenêtre flottante, avec leur type, taille et contenu.  
 
 <img src="https://www.endtoend.ai/assets/blog/jupyter-notebook-extensions-to-enhance-your-efficiency/variable_inspector.gif">
+
+# PyCharm
+### Environnement Conda
+PyCharm permet de créer des environnements de dev python via Conda.  
+Pour ca, il convient de créer un fichier .yml qui regroupe les packages à installer dans l'environnement conda.  
+Ce fichier .yml devra être enregistré à la racine du dossier de l'environnement, et être structuré de la manière suivante:  
+```
+name: conda-env-Flask101
+
+dependencies:
+  - python=3.7
+  - jupyter
+  - flask
+  - flask-cors
+  - requests
+  - pandas
+  - scikit-learn
+  - joblib
+```
+
+### Création de l'environnement
+Pour créer l'environnement, se placer dans le dossier du projet via la commande `cd` dans le terminal.  
+Saisir la commance suivante:
+```
+conda env create -f environment.yml -p .conda
+```
+Où -f déclare le nom du fichier de config, et -p déclare le nom du folder ou seront stockés les fichiers d'environnement (Ici, un dossier conda, caché).
+
+### Activation de l'environnement.
+Pour activer l'environnement, se placer dans le dossier de l'environnement via terminal et saisir:
+```
+conda activate .conda/
+```
+Où `.conda/` représente le nom du folder où sont stockés les fichiers d'environnement.  
+Une fois l'environnement activé, il convient de naviguer dedans, comme s'il s'agissait de la distribution Conda classique.
+  
+Pour désactiver l'environnement, saisir:
+```
+conda deactivate
+```
+Cela permet de revenir à l'environnement de base.
