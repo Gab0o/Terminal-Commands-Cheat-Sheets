@@ -19,6 +19,10 @@
 - [Installation](https://github.com/Gab0o/Unix-Terminal/blob/master/README.md#installation)
 - [Hinterland](https://github.com/Gab0o/Unix-Terminal/blob/master/README.md#hinterland)
 - [Variable Inspector](https://github.com/Gab0o/Unix-Terminal/blob/master/README.md#variable-inspector)
+### [PyCharm](https://github.com/Gab0o/Terminal-Commands-Cheat-Sheets/blob/master/README.md#pycharm)
+- [Environnement Conda](https://github.com/Gab0o/Terminal-Commands-Cheat-Sheets/blob/master/README.md#environnement-conda)
+- [Création de l'environnement](https://github.com/Gab0o/Terminal-Commands-Cheat-Sheets/blob/master/README.md#cr%C3%A9ation-de-lenvironnement)
+- [Activation de l'environnement](https://github.com/Gab0o/Terminal-Commands-Cheat-Sheets/blob/master/README.md#activation-de-lenvironnement)
 
 </p>
 </details>
@@ -156,7 +160,7 @@ Variable Inspector permet d'afficher les variables déclarées dans une fenêtre
 
 <img src="https://www.endtoend.ai/assets/blog/jupyter-notebook-extensions-to-enhance-your-efficiency/variable_inspector.gif">
 
-# PyCharm
+# PyCharm <a href ="https://www.jetbrains.com/pycharm/"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/PyCharm_Logo.svg/500px-PyCharm_Logo.svg.png" width="40" height="40">  
 ### Environnement Conda
 PyCharm permet de créer des environnements de dev python via Conda.  
 Pour ca, il convient de créer un fichier .yml qui regroupe les packages à installer dans l'environnement conda.  
