@@ -59,6 +59,7 @@
 | top              | Afficher les processus actifs ( *Press q to quit* ) 
 | nano `[file]`    | Ouvrir le fichier dans l'éditeur du terminal
 | clear            | Effacer le terminal
+| source ~/.bashrc | Mettre à jour le fichier `bashrc` (refresh du fichier)
 
 ### GESTION DES FICHIERS ET DOSSIERS
 |Commande                      | Description 
