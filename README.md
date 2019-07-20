@@ -201,3 +201,8 @@ Pour désactiver l'environnement, saisir:
 conda deactivate
 ```
 Cela permet de revenir à l'environnement de base.
+
+### Suppression de l'environnement
+```
+conda remove .conda/
+```
