@@ -203,6 +203,10 @@ conda deactivate
 Cela permet de revenir à l'environnement de base.
 
 ### Suppression de l'environnement
+Afficher d'abord la liste des environnements conda avec la commande
 ```
-conda remove .conda/
+conda env list
 ```
+Ensuite, entrer la commande suivante pour supprimer l'environnement conda lié au Path sélectionné via `conda env list`.  
+```
+conda env remove -p "Conda/Path"
