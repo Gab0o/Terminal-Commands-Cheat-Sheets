@@ -48,14 +48,15 @@
 ### COMMANDES
 |Commande          | Description 
 |:-----------------|:-----------------------------------------------
+| man `commande`   | Affiche l'aide d'une commande ( *Manuel* )
 | cd               | Répertoire source
 | cd `[folder]`    | Changer de répertoire
 | cd ../..         | Remonter deux répertoires parents
-| ls               | Lister les fichiers
+| ls               | Affiche le contenu du répertoire
 | ls -al           | Listing long avec fichiers cachés
 | sudo `[command]` | Executer une commande en superuser
 | open `[file]`    | Ouvrir un fichiers du répertoire actuel
-| open .           | Ouvrir le répertoire actuel
+| open `.`         | Ouvrir le répertoire actuel
 | top              | Afficher les processus actifs ( *Press q to quit* ) 
 | nano `[file]`    | Ouvrir le fichier dans l'éditeur du terminal
 | clear            | Effacer le terminal
@@ -75,7 +76,10 @@
 | cp `[file]` `[dir]`          | Copier le fichier `file` vers le répertoire `directory`
 | mv `[file]` `[new filename]` | Déplacer / Renommer le fichier `file` vers la destination `new filename`
 | rmdir `[dir]`                | Supprimer le répertoire ( *Ne fonctionne que dans un répertoire vide* )
-| rm -R `[dir]`                | Supprimer le répertoire et son contenu
+| rm -R `[dir]`                | Supprimer le répertoire et son contenu ( *Effacement récursif* )
+| `*`                          | Caractère de substitution dans une recherche
+| `grep` "motif" `[file]`      | permet de faire des rechercher le *motif* dans le *fichier* 
+| `Commande` `>` `[file]`      | Rediriger le résultat d’une commande vers un fichier ( *Utile pour logs*)
 
 # Homebrew <a href ="https://brew.sh/index_fr"> <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Homebrew_logo.png" width="50" height="40">  
 
